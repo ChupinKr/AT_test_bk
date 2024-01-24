@@ -101,26 +101,8 @@ abstract public class EventFootBall {
     abstract public double setBothGoalYes(String someStr);
     abstract public double setBothGoalNo(String someStr);
     abstract public double setFora(String someStr, String findForaRegex);
-    abstract public double setTotal0_5(String someStr);
-    abstract public double setTotal1(String someStr);
-    abstract public double setTotal1_5(String someStr);
-    abstract public double setTotal2(String someStr);
-    abstract public double setTotal2_5(String someStr);
-    abstract public double setTotal3(String someStr);
-    abstract public double setTotal3_5(String someStr);
-    abstract public double setTotal4(String someStr);
-    abstract public double setTotal4_5(String someStr);
-    abstract public double setTotal5(String someStr);
-    abstract public double setTotal5_5(String someStr);
-    abstract public double setTotal6(String someStr);
-    abstract public double setTotal6_5(String someStr);
-    abstract public double setTotal7(String someStr);
-    abstract public double setTotal7_5(String someStr);
-    abstract public double setTotal8(String someStr);
-    abstract public double setTotal8_5(String someStr);
-    abstract public double setTotal9(String someStr);
-    abstract public double setTotal9_5(String someStr);
-    abstract public double setTotal10(String someStr);
+
+    abstract public double setTotal(String someStr, String totalRegex);
 
     //region SideFunctions
     public String getHtml(String url){

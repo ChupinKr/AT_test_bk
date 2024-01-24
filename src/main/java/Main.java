@@ -11,7 +11,7 @@ public class Main {
     public static void main(String[] args) {
         //ArrayList<String> leonLiveUrls = checkLeonLive("https://leon55.bet/ru-ru/live");
         //ArrayList<String> oneXLiveUrls = check1XLive("https://1xlite-468986.top/ru/live/football");
-        Event1XBetFootball event1XBet = new Event1XBetFootball("https://1xlite-468986.top/ru/live/football/67559-club-friendlies/505205839-austria-klagenfurt-sturm-graz-ii");
+        Event1XBetFootball event1XBet = new Event1XBetFootball("https://1xlite-468986.top/ru/live/football/21317-africa-cup-of-nations/505218318-namibia-mali");
         //football.EventLeonFootball eventLeon = new football.EventLeonFootball("https://leon55.bet/ru-ru/bets/soccer/italy/italy-super-coppa/1970324843198110-inter-milan-lazio");
     }
     public static ArrayList<String> checkLeonLive(String mainUrl){

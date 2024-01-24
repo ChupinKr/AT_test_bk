@@ -50,49 +50,49 @@ public class Event1XBetFootball extends EventFootBall {
             this.bothGoalNo = setBothGoalNo(coefsBothGoal);
         }
         if (coefsTotalBigger != "") {
-            this.total0_5B = setTotal0_5(coefsTotalBigger);
-            this.total1B = setTotal1(coefsTotalBigger);
-            this.total1_5B = setTotal1_5(coefsTotalBigger);
-            this.total2B = setTotal2(coefsTotalBigger);
-            this.total2_5B = setTotal2_5(coefsTotalBigger);
-            this.total3B = setTotal3(coefsTotalBigger);
-            this.total3_5B = setTotal3_5(coefsTotalBigger);
-            this.total4B = setTotal4(coefsTotalBigger);
-            this.total4_5B = setTotal4_5(coefsTotalBigger);
-            this.total5B = setTotal5(coefsTotalBigger);
-            this.total5_5B = setTotal5_5(coefsTotalBigger);
-            this.total6B = setTotal6(coefsTotalBigger);
-            this.total6_5B = setTotal6_5(coefsTotalBigger);
-            this.total7B = setTotal7(coefsTotalBigger);
-            this.total7_5B = setTotal7_5(coefsTotalBigger);
-            this.total8B = setTotal8(coefsTotalBigger);
-            this.total8_5B = setTotal8_5(coefsTotalBigger);
-            this.total9B = setTotal9(coefsTotalBigger);
-            this.total9_5B = setTotal9_5(coefsTotalBigger);
-            this.total10B = setTotal10(coefsTotalBigger);
+            this.total0_5B = setTotal(coefsTotalBigger,"P:\\.5,");
+            this.total1B = setTotal(coefsTotalBigger,"P:1,");
+            this.total1_5B = setTotal(coefsTotalBigger,"P:1\\.5,");
+            this.total2B = setTotal(coefsTotalBigger,"P:2,");
+            this.total2_5B = setTotal(coefsTotalBigger,"P:2\\.5,");
+            this.total3B = setTotal(coefsTotalBigger,"P:3,");
+            this.total3_5B = setTotal(coefsTotalBigger,"P:3\\.5,");
+            this.total4B = setTotal(coefsTotalBigger,"P:4,");
+            this.total4_5B = setTotal(coefsTotalBigger,"P:4\\.5,");
+            this.total5B = setTotal(coefsTotalBigger,"P:5,");
+            this.total5_5B = setTotal(coefsTotalBigger,"P:5\\.5,");
+            this.total6B = setTotal(coefsTotalBigger,"P:6,");
+            this.total6_5B = setTotal(coefsTotalBigger,"P:6\\.5,");
+            this.total7B = setTotal(coefsTotalBigger,"P:7,");
+            this.total7_5B = setTotal(coefsTotalBigger,"P:7\\.5,");
+            this.total8B = setTotal(coefsTotalBigger,"P:8,");
+            this.total8_5B = setTotal(coefsTotalBigger,"P:8\\.5,");
+            this.total9B = setTotal(coefsTotalBigger,"P:9,");
+            this.total9_5B = setTotal(coefsTotalBigger,"P:9\\.5,");
+            this.total10B = setTotal(coefsTotalBigger,"P:10,");
         }
 
         if (coefsTotalLess != "") {
-            this.total0_5M = setTotal0_5(coefsTotalLess);
-            this.total1M = setTotal1(coefsTotalLess);
-            this.total1_5M = setTotal1_5(coefsTotalLess);
-            this.total2M = setTotal2(coefsTotalLess);
-            this.total2_5M = setTotal2_5(coefsTotalLess);
-            this.total3M = setTotal3(coefsTotalLess);
-            this.total3_5M = setTotal3_5(coefsTotalLess);
-            this.total4M = setTotal4(coefsTotalLess);
-            this.total4_5M = setTotal4_5(coefsTotalLess);
-            this.total5M = setTotal5(coefsTotalLess);
-            this.total5_5M = setTotal5_5(coefsTotalLess);
-            this.total6M = setTotal6(coefsTotalLess);
-            this.total6_5M = setTotal6_5(coefsTotalLess);
-            this.total7M = setTotal7(coefsTotalLess);
-            this.total7_5M = setTotal7_5(coefsTotalLess);
-            this.total8M = setTotal8(coefsTotalLess);
-            this.total8_5M = setTotal8_5(coefsTotalLess);
-            this.total9M = setTotal9(coefsTotalLess);
-            this.total9_5M = setTotal9_5(coefsTotalLess);
-            this.total10M = setTotal10(coefsTotalLess);
+            this.total0_5M = setTotal(coefsTotalLess,"P:\\.5,");
+            this.total1M = setTotal(coefsTotalLess,"P:1,");
+            this.total1_5M = setTotal(coefsTotalLess,"P:1\\.5,");
+            this.total2M = setTotal(coefsTotalLess,"P:2,");
+            this.total2_5M = setTotal(coefsTotalLess,"P:2\\.5,");
+            this.total3M = setTotal(coefsTotalLess,"P:3,");
+            this.total3_5M = setTotal(coefsTotalLess,"P:3\\.5,");
+            this.total4M = setTotal(coefsTotalLess,"P:4,");
+            this.total4_5M = setTotal(coefsTotalLess,"P:4\\.5,");
+            this.total5M = setTotal(coefsTotalLess,"P:5,");
+            this.total5_5M = setTotal(coefsTotalLess,"P:5\\.5,");
+            this.total6M = setTotal(coefsTotalLess,"P:6,");
+            this.total6_5M = setTotal(coefsTotalLess,"P:6\\.5,");
+            this.total7M = setTotal(coefsTotalLess,"P:7,");
+            this.total7_5M = setTotal(coefsTotalLess,"P:7\\.5,");
+            this.total8M = setTotal(coefsTotalLess,"P:8,");
+            this.total8_5M = setTotal(coefsTotalLess,"P:8\\.5,");
+            this.total9M = setTotal(coefsTotalLess,"P:9,");
+            this.total9_5M = setTotal(coefsTotalLess,"P:9\\.5,");
+            this.total10M = setTotal(coefsTotalLess,"P:10,");
         }
         if(coefsForaLess != ""){
             this.foraM0_5 = setFora(coefsForaLess, "-\\.5,");
@@ -213,180 +213,9 @@ public class Event1XBetFootball extends EventFootBall {
     //endregion
     //region total
     @Override
-    public double setTotal0_5(String someStr) {
+    public double setTotal(String someStr, String findTotalRegex) {
         for (int i = 0; i < someStr.split("},\\{").length; i++){
-            if(someStr.split("},\\{")[i].split("P:\\.5").length > 1)
-                return parseDouble(someStr.split("},\\{")[i].split("C:")[1].split(",")[0]);
-        }
-        return 0;
-    }
-
-    @Override
-    public double setTotal1(String someStr) {
-        for (int i = 0; i < someStr.split("},\\{").length; i++){
-            if(someStr.split("},\\{")[i].split("P:1").length > 1 && someStr.split("},\\{")[i].split("P:1\\.5").length == 1)
-                return parseDouble(someStr.split("},\\{")[i].split("C:")[1].split(",")[0]);
-        }
-        return 0;
-    }
-
-    @Override
-    public double setTotal1_5(String someStr) {
-        for (int i = 0; i < someStr.split("},\\{").length; i++){
-            if(someStr.split("},\\{")[i].split("P:1\\.5").length > 1)
-                return parseDouble(someStr.split("},\\{")[i].split("C:")[1].split(",")[0]);
-        }
-        return 0;
-    }
-
-    @Override
-    public double setTotal2(String someStr) {
-        for (int i = 0; i < someStr.split("},\\{").length; i++){
-            if(someStr.split("},\\{")[i].split("P:2").length > 1 && someStr.split("},\\{")[i].split("P:2\\.5").length == 1)
-                return parseDouble(someStr.split("},\\{")[i].split("C:")[1].split(",")[0]);
-        }
-        return 0;
-    }
-
-    @Override
-    public double setTotal2_5(String someStr) {
-        for (int i = 0; i < someStr.split("},\\{").length; i++){
-            if(someStr.split("},\\{")[i].split("P:2\\.5").length > 1)
-                return parseDouble(someStr.split("},\\{")[i].split("C:")[1].split(",")[0]);
-        }
-        return 0;
-    }
-
-    @Override
-    public double setTotal3(String someStr) {
-        for (int i = 0; i < someStr.split("},\\{").length; i++){
-            if(someStr.split("},\\{")[i].split("P:3").length > 1 && someStr.split("},\\{")[i].split("P:3\\.5").length == 1)
-                return parseDouble(someStr.split("},\\{")[i].split("C:")[1].split(",")[0]);
-        }
-        return 0;
-    }
-
-    @Override
-    public double setTotal3_5(String someStr) {
-        for (int i = 0; i < someStr.split("},\\{").length; i++){
-            if(someStr.split("},\\{")[i].split("P:3\\.5").length > 1)
-                return parseDouble(someStr.split("},\\{")[i].split("C:")[1].split(",")[0]);
-        }
-        return 0;
-    }
-
-    @Override
-    public double setTotal4(String someStr) {
-        for (int i = 0; i < someStr.split("},\\{").length; i++){
-            if(someStr.split("},\\{")[i].split("P:4").length > 1 && someStr.split("},\\{")[i].split("P:4\\.5").length == 1)
-                return parseDouble(someStr.split("},\\{")[i].split("C:")[1].split(",")[0]);
-        }
-        return 0;
-    }
-
-    @Override
-    public double setTotal4_5(String someStr) {
-        for (int i = 0; i < someStr.split("},\\{").length; i++){
-            if(someStr.split("},\\{")[i].split("P:4\\.5").length > 1)
-                return parseDouble(someStr.split("},\\{")[i].split("C:")[1].split(",")[0]);
-        }
-        return 0;
-    }
-
-    @Override
-    public double setTotal5(String someStr) {
-        for (int i = 0; i < someStr.split("},\\{").length; i++){
-            if(someStr.split("},\\{")[i].split("P:5").length > 1 && someStr.split("},\\{")[i].split("P:5\\.5").length == 1)
-                return parseDouble(someStr.split("},\\{")[i].split("C:")[1].split(",")[0]);
-        }
-        return 0;
-    }
-
-    @Override
-    public double setTotal5_5(String someStr) {
-        for (int i = 0; i < someStr.split("},\\{").length; i++){
-            if(someStr.split("},\\{")[i].split("P:5\\.5").length > 1)
-                return parseDouble(someStr.split("},\\{")[i].split("C:")[1].split(",")[0]);
-        }
-        return 0;
-    }
-
-    @Override
-    public double setTotal6(String someStr) {
-        for (int i = 0; i < someStr.split("},\\{").length; i++){
-            if(someStr.split("},\\{")[i].split("P:6").length > 1 && someStr.split("},\\{")[i].split("P:6\\.5").length == 1)
-                return parseDouble(someStr.split("},\\{")[i].split("C:")[1].split(",")[0]);
-        }
-        return 0;
-    }
-
-    @Override
-    public double setTotal6_5(String someStr) {
-        for (int i = 0; i < someStr.split("},\\{").length; i++){
-            if(someStr.split("},\\{")[i].split("P:6\\.5").length > 1)
-                return parseDouble(someStr.split("},\\{")[i].split("C:")[1].split(",")[0]);
-        }
-        return 0;
-    }
-
-    @Override
-    public double setTotal7(String someStr) {
-        for (int i = 0; i < someStr.split("},\\{").length; i++){
-            if(someStr.split("},\\{")[i].split("P:7").length > 1 && someStr.split("},\\{")[i].split("P:7\\.5").length == 1)
-                return parseDouble(someStr.split("},\\{")[i].split("C:")[1].split(",")[0]);
-        }
-        return 0;
-    }
-
-    @Override
-    public double setTotal7_5(String someStr) {
-        for (int i = 0; i < someStr.split("},\\{").length; i++){
-            if(someStr.split("},\\{")[i].split("P:7\\.5").length > 1)
-                return parseDouble(someStr.split("},\\{")[i].split("C:")[1].split(",")[0]);
-        }
-        return 0;
-    }
-
-    @Override
-    public double setTotal8(String someStr) {
-        for (int i = 0; i < someStr.split("},\\{").length; i++){
-            if(someStr.split("},\\{")[i].split("P:8").length > 1 && someStr.split("},\\{")[i].split("P:8\\.5").length == 1)
-                return parseDouble(someStr.split("},\\{")[i].split("C:")[1].split(",")[0]);
-        }
-        return 0;
-    }
-
-    @Override
-    public double setTotal8_5(String someStr) {
-        for (int i = 0; i < someStr.split("},\\{").length; i++){
-            if(someStr.split("},\\{")[i].split("P:8\\.5").length > 1)
-                return parseDouble(someStr.split("},\\{")[i].split("C:")[1].split(",")[0]);
-        }
-        return 0;
-    }
-
-    @Override
-    public double setTotal9(String someStr) {
-        for (int i = 0; i < someStr.split("},\\{").length; i++){
-            if(someStr.split("},\\{")[i].split("P:9").length > 1 && someStr.split("},\\{")[i].split("P:9\\.5").length == 1)
-                return parseDouble(someStr.split("},\\{")[i].split("C:")[1].split(",")[0]);
-        }
-        return 0;
-    }
-
-    @Override
-    public double setTotal9_5(String someStr) {
-        for (int i = 0; i < someStr.split("},\\{").length; i++){
-            if(someStr.split("},\\{")[i].split("P:9\\.5").length > 1)
-                return parseDouble(someStr.split("},\\{")[i].split("C:")[1].split(",")[0]);
-        }
-        return 0;
-    }
-
-    @Override
-    public double setTotal10(String someStr) {
-        for (int i = 0; i < someStr.split("},\\{").length; i++){
-            if(someStr.split("},\\{")[i].split("P:10").length > 1)
+            if(someStr.split("},\\{")[i].split(findTotalRegex).length > 1)
                 return parseDouble(someStr.split("},\\{")[i].split("C:")[1].split(",")[0]);
         }
         return 0;
